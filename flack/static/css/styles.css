@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+
+body {
+    
+    height: 100%;
+    background: url("../img/background_w.jpg") no-repeat fixed center;
+}
+
+h1, h2, h3 {
+    margin: 5px;
+}
+
+#msg-list {
+    height: 70vh;
+    overflow: auto;
+    overflow-wrap: break-word;
+    background-color: white;
+    opacity: 0.85;
+}
+
+#channel-list {
+    height: 60vh;
+    overflow: auto;
+}
+
+.social-icons {
+    position: absolute;
+    margin-bottom: 2rem;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .social-icons ul {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .social-icons ul > li {
+    margin: 1rem;
+    display: inline-block;
+  }
+  
+  .social-icons ul > li > a {
+    display: block;
+    color: white;
+    background-color: grey;
+    border-radius: 100%;
+    font-size: 1rem;
+    line-height: 2rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .social-icons {
+      margin: 0;
+      position: absolute;
+      right: 2.5rem;
+      bottom: 1rem;
+      width: auto;
+    }
+    .social-icons ul {
+      margin-top: 0;
+      width: auto;
+    }
+    .social-icons ul > li {
+      display: block;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+    .social-icons ul > li:last-child {
+      margin-bottom: 0;
+    }
+    .social-icons ul > li > a {
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      font-size: 1rem;
+      line-height: 2rem;
+      height: 2rem;
+      width: 2rem;
+    }
+    .social-icons ul > li > a:hover {
+      background-color: rgb(100, 100, 100);
+    }
+  }
