@@ -3,8 +3,8 @@
 ## Description
 An online messaging service using WebSocket protocol.
 Build with:
-* [https://flask-socketio.readthedocs.io/en/latest/](Flask-SocketIO)
-* [https://socket.io/](Socket.IO) client
+* [Flask-SocketIO/](https://flask-socketio.readthedocs.io/en/latest/)
+* [Socket.IO](https://socket.io/) JavaScript client
 
 
 
